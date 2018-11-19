@@ -9,7 +9,7 @@ const NewSingle = ({item}) => (
         
         </div>
           <div className="card-footer">
-          <p className="card-text">  <a href={item.url} target="_blank">Full Article</a></p>
+          <p className="card-text">  <a href={item.url} target="_blank" rel="noopener noreferrer">Full Article</a></p>
           </div>
       </div>
 );
